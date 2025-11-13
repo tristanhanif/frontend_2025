@@ -43,8 +43,8 @@ const Button: React.FC<
         "opacity-25": isDisabled,
         "w-24": width === "md",
         "w-full": width === "full",
-        "h-8": width === "sm",
-        "h-12": width === "md",
+        "h-8": height === "sm",
+        "h-12": height === "md",
       })}
     >
       {!isLoading ? (
